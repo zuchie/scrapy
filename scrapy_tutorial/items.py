@@ -11,4 +11,9 @@ from scrapy.item import Item, Field
 class LivingsocialItem(Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    title = Field()
+    link = Field()
+    desc = Field()
+    cat = Field()
+    orig_price = Field()
+    deal_price = Field()
